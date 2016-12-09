@@ -1,0 +1,87 @@
+#container {
+	width: 900px;
+	margin:100px auto;
+}
+ul {
+	overflow: hidden;
+}
+ul li {
+	float: left;
+	height: 30px;
+	margin-right: 5px;
+			border: 1px solid #ccc;
+}
+button {
+		border: none;
+		background-color: white;
+}
+#undo,#justifyLeft,#justifyCenter,#justifyRight,#insertVideo{
+	   height: 100%;
+		width: 30px;
+		background-size: cover;
+		background-repeat: no-repeat;
+
+}
+#undo {
+			background-image:url(image/撤销.png);
+}
+#fontName,#fontSize{
+    border-radius: 0;
+    border: 0;
+    background: white;
+    height: 30px;
+}
+#bold,#italic,#underline{
+		line-height: 30px;
+		font-size: 18px;
+		font-weight: bold;
+		height: 30px;
+		padding: 0 10px;
+}
+#italic {
+	font-style: italic
+}
+#underline {
+	text-decoration: underline;
+}
+#justifyLeft {
+ 	 background-image: url(image/左对齐.png);
+}
+#justifyRight {
+	background-image: url(image/右对齐.png);
+}
+#justifyCenter {
+	background-image: url(image/居中对齐.png);
+}
+input[type="file"]{
+    opacity: 0;
+    width: 30px;
+	   height: 30px;
+
+}
+.insertImage{
+	  background-repeat: no-repeat;
+	  background-size: cover;
+background-image: url(image/图片.png);
+	   overflow: hidden;
+}
+
+#insertVideo {
+	background-image: url(image/视频.png);
+}
+/*文本框*/
+#text_box {
+	width: 100%;
+	height: 500px;
+	margin-top: 30px;
+	border: 1px solid #ccc;
+}
+b,strong{
+	font-weight:bold;
+}
+i,em{
+	font-style: italic;
+}
+img {
+	width: 200px;
+}

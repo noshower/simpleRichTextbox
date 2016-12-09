@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>简易富文本编辑器</title>
+		<link rel="stylesheet" href="reset.css" />
+		<link rel="stylesheet" href="index.css" />
+	</head>
+
+	<body>
+		<div id="container">
+			<ul>
+				<li><button id="undo" title="撤销"></button></li>
+				<li>
+					<select id="fontName">
+						<option value="">默认</option>
+						<option value="STHeiti Light [STXihei]	">华文细黑</option>
+						<option value="STHeiti">华文黑体</option>
+						<option value="STKaiti">华文楷体</option>
+						<option value="STSong">华文宋体</option>
+						<option value="STFangsong">华文仿宋</option>
+						<option value="Apple LiGothic Medium">苹果丽中黑</option>
+					</select>
+				</li>
+				<li>
+					<select name="" id="fontSize">
+						<option value="5">选择字号</option>
+						<option value="7">7</option>
+						<option value="6">6</option>
+						<option value="5">5</option>
+						<option value="4">4</option>
+						<option value="3">3</option>
+						<option value="2">2</option>
+						<option value="1">1</option>
+					</select>
+				</li>
+				<li>
+					<button id="bold" title="加粗">B</button>
+				</li>
+				<li>
+					<button id="italic" title="斜体"><span>I</span></button>
+				</li>
+				<li>
+					<button id="underline" title="下划线">U</button>
+				</li>
+				<li><button id="justifyLeft" title="左对齐"></button></li>
+
+				<li><button id="justifyCenter" title="居中对齐"></button></li>
+
+				<li><button id="justifyRight" title="右对齐"></button></li>
+				<li class="insertImage"><input type="file" id="insertImage" title="插入图片" accept="image/*"/></li>
+<li><button  id="insertVideo" title="插入视频"></button></li>
+
+
+			</ul>
+			<div id="text_box" contenteditable="true">
+
+			</div>
+			<script src="index.js"></script>
+		</div>
+	</body>
+
+</html>
